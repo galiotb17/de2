@@ -2,4 +2,28 @@ body {
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: 'poppins';
+  src: url(../font/Poppins/Poppins-Regular.ttf) format('truetype');
+  font: weight 400px;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'poppins';
+  src: url(../font/Poppins/Poppins-SemiBold.ttf) format('truetype');
+  font: weight 400px;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'poppins';
+  src: url(../font/Poppins/Poppins-Regular.ttf) format('truetype');
+  font: weight 600px;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'poppins';
+  src: url(../font/Poppins/Poppins-Medium.ttf) format('truetype');
+  font: weight 500px;
+  font-style: normal;
+}
 /*# sourceMappingURL=styte.css.map */
