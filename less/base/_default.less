@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #000;
+    text-decoration: #000;
+    &:hover {
+        color: #000;
+    }
+}
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+    }
+
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: auto;
+    margin: 0 -15px;
+}
+.dropdown{
+    &:hover{
+        .dropdown-content{
+            display: block;
+        }
+    }
+    &-btn {
+        &::after{
+            content:url(../img/down-arrow.png);
+            color: #fff;
+        }
+
+    }
+    &-content {
+        display:none;
+        position: absolute;
+        background-color: @bg-header;
+    }
+}
+body{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: normal;
+}
